@@ -6,12 +6,12 @@ import Hookcounterthree from './Componets/Hookcounterthree';
 import Hookcounterfour from './Componets/Hookcounterfour';
 import Hookmouse from './Componets/Hookmouse';
 import IntervalHookcounter from './Componets/IntervalHookcounter';
-import datafetching from './Componets/datafetching';
+import Datafetching from './Componets/datafetching';
 
 function App() {
   return (
     <div className="App">
-    
+      <Datafetching />
   </div>
   );
 }
