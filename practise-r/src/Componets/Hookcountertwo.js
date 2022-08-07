@@ -6,7 +6,7 @@ function Hookcountertwo() {
     const [count ,setcount]=useState(initialCount)
   return (
     <div>
-        count : {count}
+        count : {count}<br/>
         <button onClick={()=>setcount(initialCount)}>RESET</button>
         <button onClick={()=>setcount(count+1)}>INCREMENT</button>
         <button onClick={()=>setcount(count-1)}>DECREMENT</button>

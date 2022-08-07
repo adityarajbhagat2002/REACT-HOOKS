@@ -7,13 +7,19 @@ import Hookcounterfour from './Componets/Hookcounterfour';
 import Hookmouse from './Componets/Hookmouse';
 import IntervalHookcounter from './Componets/IntervalHookcounter';
 import Datafetching from './Componets/datafetching';
+import Counterone from './Componets/Counterone';
+import Countertwo from './Countertwo';
+import Counterthree from './Componets/Counterthree';
+import Datafetchingone from './Componets/Datafetchingone';
+
 
 function App() {
   return (
     <div className="App">
-      <Datafetching />
-  </div>
+           <Datafetchingone />
+             </div>
   );
 }
+
 
 export default App;
