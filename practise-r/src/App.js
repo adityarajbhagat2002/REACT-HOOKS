@@ -12,12 +12,13 @@ import Countertwo from './Countertwo';
 import Counterthree from './Componets/Counterthree';
 import Datafetchingone from './Componets/Datafetchingone';
 import Datafetchingtwo from './Componets/Datafetchingtwo';
+import Countermemo from './Componets/Countermemo';
 
 
 function App() {
   return (
     <div className="App">
-           <Datafetchingtwo />
+           <Countermemo />
              </div>
   );
 }
