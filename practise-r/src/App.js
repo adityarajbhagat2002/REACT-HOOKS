@@ -13,12 +13,13 @@ import Counterthree from './Componets/Counterthree';
 import Datafetchingone from './Componets/Datafetchingone';
 import Datafetchingtwo from './Componets/Datafetchingtwo';
 import Countermemo from './Componets/Countermemo';
+import Focuninput from './Componets/Focuninput';
 
 
 function App() {
   return (
     <div className="App">
-           <Countermemo />
+          <Focuninput />
              </div>
   );
 }
