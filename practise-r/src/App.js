@@ -14,12 +14,13 @@ import Datafetchingone from './Componets/Datafetchingone';
 import Datafetchingtwo from './Componets/Datafetchingtwo';
 import Countermemo from './Componets/Countermemo';
 import Focuninput from './Componets/Focuninput';
+import Hooktimer from './Componets/Hooktimer';
 
 
 function App() {
   return (
     <div className="App">
-          <Focuninput />
+      <Hooktimer />
              </div>
   );
 }
