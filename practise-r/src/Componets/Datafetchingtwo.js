@@ -1,7 +1,7 @@
-import React, { useReducer } from 'react'
+import React, { useReducer , useEffect } from 'react'
 import axios from 'axios'
 
-const initialstate= {
+const initialstate = {
     loading : true,
     error: '',
     post : {}
@@ -49,9 +49,9 @@ function Datafetchingtwo() {
   return (
     <div>
         {
-            loading ? 'loading' : post.title
+            state.loading ? 'loading' : state.post.title
         }
-        {error ? error : null}
+        {state.error ? state.error : null}
     </div>
   )
 }
